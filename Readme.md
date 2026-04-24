@@ -79,6 +79,11 @@ Abre tu navegador web y visita: [http://localhost](http://localhost)
    - En la sección **Cabeceras de respuesta** (Response Headers), busca `X-Backend-Server`. Verás la IP interna del backend cambiando en cada recarga, y la cabecera `X-Proxy-By` indicando "Proxy Inverso - Lautaro".
 
 
+<img width="1413" height="816" alt="0 2" src="https://github.com/user-attachments/assets/6449a567-7902-407a-8091-e7b0d311f1b3" />
+
+<img width="1526" height="786" alt="0 3" src="https://github.com/user-attachments/assets/64caf94b-ec35-4383-bdaa-69ec6f504e7c" />
+
+
 
 ### 3. Detener la Infraestructura
 Para apagar y eliminar los contenedores y sus redes (conservando tus archivos en el volumen):
