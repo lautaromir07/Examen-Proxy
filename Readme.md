@@ -84,8 +84,37 @@ Abre tu navegador web y visita: [http://localhost](http://localhost)
 <img width="1526" height="786" alt="0 3" src="https://github.com/user-attachments/assets/64caf94b-ec35-4383-bdaa-69ec6f504e7c" />
 
 
+### 3. Funcionamiento del Proxy y la Red Aislada
 
-### 3. Detener la Infraestructura
+Solo el puerto expuesto:
+<img width="1465" height="298" alt="Proxy" src="https://github.com/user-attachments/assets/86ff9935-b02b-4908-a726-2dacf96a14cb" />
+
+
+Red interna configurada:
+
+<img width="1215" height="696" alt="Red_interna" src="https://github.com/user-attachments/assets/ff7969a2-e65d-434e-a06b-85ffe20ebe91" />
+
+
+Ping a los Backend que deben dar fallo porque no tenemos acceso directo:
+
+<img width="937" height="307" alt="image" src="https://github.com/user-attachments/assets/018a172e-63fd-4730-a47e-4cffc7714ff1" />
+
+
+Ping desde el Proxy al Backend:
+
+<img width="958" height="335" alt="ping_proxy_a_backend" src="https://github.com/user-attachments/assets/05e26925-d2c0-4d1d-a516-68f00cbab7d5" />
+
+Peticion de la web al proxy para demostrar la conexión exitosa:
+
+<img width="1102" height="608" alt="peticion_al_proxy" src="https://github.com/user-attachments/assets/f03bd08c-e077-4e28-814d-851219bbb005" />
+
+
+
+
+
+
+
+### 4. Detener la Infraestructura
 Para apagar y eliminar los contenedores y sus redes (conservando tus archivos en el volumen):
 ```bash
 docker compose down
